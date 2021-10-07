@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --primary-color: #171717;
+    --secondary-color: #444444;
+    --accent-color: #DA0037;
+    --complimentary-color: #c8ccd0;
+    --white-color: #eeeeee;
+    --black-color: #181818;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Kaisei Tokumin', serif;
+    font-weight: 700;
+    /* overflow: hidden; */
+}
+
+h1, p{
+    color: var(--complimentary-color);
+}
+
+.accent{
+    color: var(--accent-color);
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+
+.main-content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2em;
+}
+
+.main-content h1{
+    font-size: 3.9rem;
+    text-transform: uppercase;
+    margin-bottom: 0.8em;
+}
+
+.main-content p{
+    font-size: 1.7rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    line-height: 2.5rem;
+    margin-bottom: 0.7em;
+}
+
+.main-content a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    display: flex;
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+.canvas-element{
+    width: 60%;
+}
