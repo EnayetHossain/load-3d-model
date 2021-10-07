@@ -1,6 +1,6 @@
 1. Clone this repository on your system
 
-2. Open Terminal or Command Prompt on root directory of this project and type: npm init
+2. Open Terminal or Command Prompt on root directory of this project and type: npm init -y
 
 3. npm install express
 
